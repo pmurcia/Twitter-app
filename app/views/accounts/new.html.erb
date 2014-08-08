@@ -1,0 +1,10 @@
+<h1>Twitter</h1>
+
+<h4>You must introduce your account of Twitter</h4>
+
+<%= form_for @account do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+
+	<%= f.submit 'Show tweets' %>
+<% end %>
